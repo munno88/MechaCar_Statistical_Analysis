@@ -119,6 +119,21 @@ Lot 3: p-value = .1589, alpha = .05
 
 The overall manufacturing, Lot 1, and Lot 2 show a normal distribution. Therefore, there is not sufficient evidence to reject the null hypothesis, which shows the two means are statistically similar.
 
+## Deliverable 4 : Study Design: MechaCar vs Competition
+
+When comparing MechaCar to its competitor’s other metrics that could be of interest to a consumer could include cost, car color, city fuel efficiency, highway fuel efficiency, horsepower, maintenance cost, or safety rating.
+
+* What metric or metrics are you going to test?
+The next metrics to test should be the safety rating, horsepower, and highway fuel efficiency, which address some safety concerns of consumers.
+
+* What is the null hypothesis or alternative hypothesis?
+The null hypothesis is that the mean of the safety rating is zero. The alternative hypothesis is that the mean of the safety rating is not zero.
+
+* What statistical test would you use to test the hypothesis? And why?
+Using a multiple linear regression statistical summary would show how the variables impact the safety ratings for MechaCar and their competitors.
+
+* What data is needed to run the statistical test?
+A random sample of n > 30 for MechaCar and their competitor, would need to be collected including the safety ratings, highway fuel efficiency, and horsepower plus running the data through RStudio.
 
 
 
