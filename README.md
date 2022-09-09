@@ -1,4 +1,6 @@
+
 # MechaCar_Statistical_Analysis
+***
 ## R programming for MechaCar Statistical Analysis
 
 ## Main Overview
@@ -77,6 +79,55 @@ The means of the lot numbers are similar to the population mean and the sample m
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 The variance for the total manufacturing lot is 62 < 100, which is within the expected design specifications of staying under 100 PSI. However, when reviewing the data by Lot number, Lot 3 is a large contributing factor to the variance being high. Lot 3 shows a variance of 170 > 100 and does not meet the design specifications. Lot 1 and Lot 2 have significantly lower variance, 1 and 7 respectively.
+
+
+## Deliverable 3 : T-Tests on Suspension Coils
+
+### T-Tests for All Lots
+
+All Manufacturing Lots: p-value = 1, alpha = .05
+
+1 > .05, which means the total manufacturing lot is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
+
+![t-testforalllot](https://user-images.githubusercontent.com/103727169/189421796-7d963499-4238-4b20-a85f-f90898c13392.png)
+
+### T-Test for Lot 1
+
+Lot 1: p-value = 1.568e-11, alpha = .05
+
+1.568e-11 > .05, which means Lot 1 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
+
+![t-testlot1](https://user-images.githubusercontent.com/103727169/189422001-8610a255-68e1-42c3-8d05-a0c10be48e60.png)
+
+### T-Test for Lot 2
+
+Lot 2: p-value = .0005911, alpha = .05
+
+.0005911 > .05, which means Lot 2 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
+
+![t-testlot2](https://user-images.githubusercontent.com/103727169/189422248-3112f27c-4157-4a48-a7df-228222bca723.png)
+
+
+### T-Test for Lot 3
+
+Lot 3: p-value = .1589, alpha = .05
+
+.1589 < .05, which means it is statistically significant from the normal distribution and normality cannot be assumed. However, the mean falls within the 95% confidence interval.
+
+![t-testlot3](https://user-images.githubusercontent.com/103727169/189422418-004cb5b2-dced-4891-9594-8b743b8a4c65.png)
+
+
+The overall manufacturing, Lot 1, and Lot 2 show a normal distribution. Therefore, there is not sufficient evidence to reject the null hypothesis, which shows the two means are statistically similar.
+
+
+
+
+
+
+
+
+
+
 
 
 
