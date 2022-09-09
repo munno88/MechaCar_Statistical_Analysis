@@ -5,23 +5,32 @@
 
 ## Main Overview
 
-* Load, clean up, and reshape datasets using tidyverse in R.
-* Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.
-* Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.
-* Plot and identify distribution characteristics of a given dataset.
-* Formulate null and alternative hypothesis tests for a given data problem.
-* Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.
-* Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.
-* Implement and evaluate a chi-squared test for a given dataset.
-* Identify key characteristics of A/B and A/A testing.
-* Determine the most appropriate statistical test for a given hypothesis and dataset.
+&#x1F539; Load, clean up, and reshape datasets using tidyverse in R.
+
+&#x1F538; Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.
+
+&#x1F539; Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.
+
+&#x1F538; Plot and identify distribution characteristics of a given dataset.
+
+&#x1F539; Formulate null and alternative hypothesis tests for a given data problem.
+
+&#x1F538; Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.
+
+&#x1F539; Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.
+
+&#x1F538; Implement and evaluate a chi-squared test for a given dataset.
+
+&#x1F539; Identify key characteristics of A/B and A/A testing.
+
+&#x1F538; Determine the most appropriate statistical test for a given hypothesis and dataset.
 
 
 ## Deliverable 1 :  Linear Regresson to Predict MPG
 
 The MechaCar dataset contains a sample size of 50 prototypes measuring the miles per gallon across multiple variables. The linear regression was calculated using R in RStudio.
 
-&#x1F538; RStudio
+&#x1F539; RStudio
 
 &#x1F538; dplyr Library
 
