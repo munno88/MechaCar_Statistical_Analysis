@@ -44,7 +44,7 @@ A summary of the linear regression can be displayed to determine the quality of 
 
 ![LinearRegressionCoefficents](https://user-images.githubusercontent.com/103727169/189400885-e9756d11-cf75-4a07-bc27-37ab027e9b16.png)
 
-* Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+&#x1F539; Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   A 95% level of confidence was predetermined, meaning the p-value should be compared to alpha = .05 level of significance to verify if statistically significant.
   
   Coefficients:
@@ -57,7 +57,7 @@ A summary of the linear regression can be displayed to determine the quality of 
 
   In summary, vehicle length and ground clearance variables represent non-random amounts of variance as applied to the mpg values.
   
-* Is the slope of the linear model considered to be zero? Why or why not?
+&#x1F539; Is the slope of the linear model considered to be zero? Why or why not?
 Converting from scientific notation, all of the slopes of the variables are shown to be non-zero even though some are close to zero:
   
   Coefficients:
@@ -69,7 +69,7 @@ AWD: -3.411
 
   The multiple linear regression formula for mpg = -.01 + 6.267(vehicle length)+.001(vehicle weight)+.069(spoiler angle)+3.546(ground clearance)-3.411(AWD), which results in a non-zero slope.
   
-* Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+&#x1F539; Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 R-squared is .7149, which is a strong correlation for the dataset and shows the dataset is an effective dataset. However, r-squared is not the only consideration for effectiveness. There may be other variables not included in the dataset contributing to the variation in the mpg.
 
 ## Deliverable 2 : Summary Staistics on Suspension Coils
@@ -135,16 +135,16 @@ The overall manufacturing, Lot 1, and Lot 2 show a normal distribution. Therefor
 
 When comparing MechaCar to its competitor’s other metrics that could be of interest to a consumer could include cost, car color, city fuel efficiency, highway fuel efficiency, horsepower, maintenance cost, or safety rating.
 
-* What metric or metrics are you going to test?
+&#x1F538; What metric or metrics are you going to test?
 The next metrics to test should be the safety rating, horsepower, and highway fuel efficiency, which address some safety concerns of consumers.
 
-* What is the null hypothesis or alternative hypothesis?
+&#x1F539; What is the null hypothesis or alternative hypothesis?
 The null hypothesis is that the mean of the safety rating is zero. The alternative hypothesis is that the mean of the safety rating is not zero.
 
-* What statistical test would you use to test the hypothesis? And why?
+&#x1F538; What statistical test would you use to test the hypothesis? And why?
 Using a multiple linear regression statistical summary would show how the variables impact the safety ratings for MechaCar and their competitors.
 
-* What data is needed to run the statistical test?
+&#x1F539; What data is needed to run the statistical test?
 A random sample of n > 30 for MechaCar and their competitor, would need to be collected including the safety ratings, highway fuel efficiency, and horsepower plus running the data through RStudio.
 
 
