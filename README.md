@@ -91,8 +91,6 @@ The variance for the total manufacturing lot is 62 < 100, which is within the ex
 
 This very simple boxplot illustrates the differences between the lots:
 
-![ggplot](https://user-images.githubusercontent.com/103727169/189467249-4f774d54-8e2f-481d-a687-66a6b13b3c78.png)
-
 ## Deliverable 3 : T-Tests on Suspension Coils
 
 ### T-Tests for All Lots
