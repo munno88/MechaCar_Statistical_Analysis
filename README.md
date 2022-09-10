@@ -89,6 +89,9 @@ The means of the lot numbers are similar to the population mean and the sample m
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 The variance for the total manufacturing lot is 62 < 100, which is within the expected design specifications of staying under 100 PSI. However, when reviewing the data by Lot number, Lot 3 is a large contributing factor to the variance being high. Lot 3 shows a variance of 170 > 100 and does not meet the design specifications. Lot 1 and Lot 2 have significantly lower variance, 1 and 7 respectively.
 
+This very simple boxplot illustrates the differences between the lots:
+
+![ggplot](https://user-images.githubusercontent.com/103727169/189467249-4f774d54-8e2f-481d-a687-66a6b13b3c78.png)
 
 ## Deliverable 3 : T-Tests on Suspension Coils
 
