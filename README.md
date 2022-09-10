@@ -1,5 +1,5 @@
 # MechaCar_Statistical_Analysis
-
+![1634954664825](https://user-images.githubusercontent.com/103727169/189503360-8da7344a-d822-4e89-b83c-0c90808a4c3b.jpg)
 ***
 ## R programming for MechaCar Statistical Analysis
 
