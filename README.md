@@ -37,12 +37,15 @@ The MechaCar dataset contains a sample size of 50 prototypes measuring the miles
 ### Linear Regression
 R script was applied to the dataset on several variables to get the following coefficients.
 
-![LinearRegressionCall](https://user-images.githubusercontent.com/103727169/189399778-9a04f347-1ed9-4909-86b4-5aee0276a710.png)
+![LinearRegressionCall](https://user-images.githubusercontent.com/103727169/189502751-925da3a9-0afb-45b6-b979-6d83d581df97.png)
+
 
 ### Summary of Linear Regresson model
 A summary of the linear regression can be displayed to determine the quality of the dataset. In this distribution of the residuals, the dataset fits in with the normal parameters, where the absolute value of the min and max are comparable |-19.47|~|18.58| and the median -.07 is close to zero.
 
-![LinearRegressionCoefficents](https://user-images.githubusercontent.com/103727169/189400885-e9756d11-cf75-4a07-bc27-37ab027e9b16.png)
+![LinearRegressionCoefficents](https://user-images.githubusercontent.com/103727169/189502828-bb473fc2-925b-442c-956c-72109d3d62d0.png)
+
+
 
 &#x1F539; Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   A 95% level of confidence was predetermined, meaning the p-value should be compared to alpha = .05 level of significance to verify if statistically significant.
